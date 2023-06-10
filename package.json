@@ -1,10 +1,11 @@
 {
   "name": "agrippa",
   "displayName": "Agrippa",
+  "publisher": "nitzanhen",
   "description": "Generate frontend components in a heartbeat with Agrippa",
   "homepage": "https://www.agrippa.dev/",
   "license": "MIT",
-  "version": "1.0.0-beta.1",
+  "version": "0.0.1",
   "preview": true,
   "engines": {
     "vscode": "^1.79.0"
