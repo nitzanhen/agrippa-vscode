@@ -1,6 +1,6 @@
 {
   "name": "agrippa",
-  "icon": "https://www.agrippa.dev/agrippa.png",
+  "icon": "agrippa.png",
   "displayName": "Agrippa",
   "publisher": "nitzanhen",
   "description": "Generate frontend components in a heartbeat with Agrippa",
