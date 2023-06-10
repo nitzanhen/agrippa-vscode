@@ -1,7 +1,8 @@
 {
   "name": "agrippa",
   "displayName": "Agrippa",
-  "description": "VSCode Extension for Agrippa",
+  "description": "Generate frontend components in a heartbeat with Agrippa",
+  "homepage": "https://www.agrippa.dev/",
   "license": "MIT",
   "version": "1.0.0-beta.1",
   "preview": true,
@@ -34,6 +35,10 @@
         }
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NitzanHen/agrippa-vscode.git"
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",

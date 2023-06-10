@@ -1,71 +1,29 @@
-# agrippa README
+# Agrippa for Visual Studio Code
 
-This is the README for your extension "agrippa". After writing up a brief description, we recommend including the following sections.
+This extension integrates [agrippa](https://agrippa.dev)'s component generation capabilities into Visual Studio Code's UI.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This extension allow creating a new component in a click, by right clicking a file or directory in the file explorer:
 
-For example if there is an image subfolder under your extension project workspace:
+![main feature](./example.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Clicking this new option will prompt you to pick a name to your new component, after which it will be created and opened in the editor for you 🎉
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Generating a component requires an Agrippa config file (e.g. `agrippa.config.mjs`) to be present somewhere in your workplace - typically at your project's root.
+When present, the file explorer's context menu (brought up by right clicking a file or directory) should have a new option: "*Generate a component here...*"  
+once clicked, you'll be prompted to give a name to the new component, and then it will be generated.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This extension is in early stages of development and may produce unstable results; use with caution.
+
+Currently in the works: an `init` command for creating a plugin and the ability to customize options per-component (similar to the command line).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release.
