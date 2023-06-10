@@ -3,6 +3,7 @@ import { run } from 'agrippa';
 import * as vscode from 'vscode';
 import { lstat } from 'node:fs/promises';
 import { existsSync } from 'fs';
+import { glob } from 'glob';
 
 export async function generateComponent(ctx: any): Promise<void> {
   if (!ctx) {
@@ -17,8 +18,8 @@ export async function generateComponent(ctx: any): Promise<void> {
   const dir = isDir ? path : dirname(path);
 
   const baseDir = vscode.workspace.workspaceFolders?.[0].uri.fsPath as string;
-  const configPath = join(baseDir, 'agrippa.config.mjs');
-  if (!existsSync(configPath)) {
+  const [configPath] = await glob('**/agrippa.config.mjs', { cwd: baseDir });
+  if (!configPath) {
     vscode.window.showErrorMessage('An Agrippa config file is required in the root of the project');
     return;
   }
