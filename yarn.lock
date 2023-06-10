@@ -103,9 +103,9 @@
   integrity sha512-/fvYntiO1GeICvqbQ3doGDIP97vWmvFt83GKguJ6prmQM2iXZfFcq6YE8KteFyRtX2/h5Hf91BYvPodJKFYv5Q==
 
 "@types/node@*":
-  version "20.2.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.2.6.tgz#f8f4cdcf9bc74fffcb44a9e1e3f3586d583dac24"
-  integrity sha512-GQBWUtGoefMEOx/vu+emHEHU5aw6JdDoEtZhoBrHFPZbA/YNRFfN996XbBASEWdvmLSLyv9FKYppYGyZjCaq/g==
+  version "20.3.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.3.0.tgz#719498898d5defab83c3560f45d8498f58d11938"
+  integrity sha512-cumHmIAf6On83X7yP+LrsEyUOf/YlociZelmpRYaGFydoaPdxdt80MAbu6vWerQT2COCp2nPvHdsbD7tHn/YlQ==
 
 "@types/node@20.2.5":
   version "20.2.5"
@@ -233,10 +233,10 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agrippa@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/agrippa/-/agrippa-2.0.2.tgz#f0207464c67b282998037181a601282690144adb"
-  integrity sha512-tITJK+pSGL6PxNb9StHRIIL9hUiAF7bivs5EEcf6jmGwz2+m9wiZTXJP/d4Jjd+0AfuZkq+MCogJSafX7NfjQw==
+agrippa@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/agrippa/-/agrippa-2.0.3.tgz#c9a1b1e7fc2dcd5846d1547db5712fca93e4d00d"
+  integrity sha512-bNgkeQBGeIYaV8TC74iABKKjDnNUVV2R5o8Y7SHllRqYaPjQPksYnbni9A74mqOMA0rzqNTdpvQ/9MBfjxdtcQ==
   dependencies:
     axios "^0.24.0"
     chalk "^4.1.2"
@@ -1097,9 +1097,9 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 pips@^1.0.0-rc.3:
-  version "1.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/pips/-/pips-1.0.0-rc.3.tgz#0c957c1395de2cec0325dea2e40293c66eb380e4"
-  integrity sha512-EtGkYA7Pu2If2G9vmp6XmLceLhGMPolYAFj1oCu4xWMgAonQYKBKyhb9jnauviuQZ0q38i8zBb5uRS4m+GwLow==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pips/-/pips-1.0.0.tgz#2d5235eb9fc9eab2d08b1fbbdf89ae2eba17718a"
+  integrity sha512-KtC0fHefO2e6eAEpCjaz7lsT2xugpExNCRjQ1u3T3MoEfkCeM366pSj73S/sRkoi1Uxu74wZyY/z7tgR4J0dlQ==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
