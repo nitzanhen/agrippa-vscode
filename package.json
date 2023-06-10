@@ -6,7 +6,7 @@
   "description": "Generate frontend components in a heartbeat with Agrippa",
   "homepage": "https://www.agrippa.dev/",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "preview": true,
   "engines": {
     "vscode": "^1.79.0"
