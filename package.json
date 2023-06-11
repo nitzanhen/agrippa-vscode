@@ -58,7 +58,7 @@
     "vscode": "^1.1.37"
   },
   "dependencies": {
-    "agrippa": "^2.0.3",
+    "agrippa": "^2.0.4",
     "eslint": "^8.41.0",
     "glob": "^10.2.7",
     "typescript": "^5.1.3"

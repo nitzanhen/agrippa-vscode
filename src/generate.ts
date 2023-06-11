@@ -47,7 +47,8 @@ export async function generateComponent(ctx: any): Promise<void> {
     }, {
       envFiles: {
         agrippaConfig: configPath,
-      }
+      },
+      basePath: baseDir,
     });
 
     console.log(result);
