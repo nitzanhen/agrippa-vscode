@@ -60,7 +60,8 @@
   },
   "dependencies": {
     "agrippa": "^2.0.3",
-    "glob": "^10.2.7"
+    "glob": "^10.2.7",
+    "vscode": "^1.1.37"
   },
   "keywords": [
     "productivity",
